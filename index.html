@@ -1,34 +1,160 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Privacy Policy – Advisor Desk</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Advisor Desk</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+        h1, h2, h3 {
+            color: #1a2a4d;
+            font-weight: 700;
+        }
+        h1 {
+            color: #FF5722; /* App's primary color */
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #f1f1f1;
+            padding-bottom: 20px;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            color: #FF5722;
+        }
+        h3 {
+            font-size: 1.2em;
+            margin-top: 25px;
+            color: #1a2a4d;
+        }
+        p, li {
+            font-size: 1em;
+            color: #555;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        strong {
+            color: #333;
+        }
+        a {
+            color: #FF5722;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #888;
+        }
+        .highlight {
+            background-color: #fff3e0;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: bold;
+            color: #FF5722;
+        }
+        .last-updated {
+            text-align: center;
+            color: #777;
+            margin-bottom: 30px;
+        }
+    </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p><strong>Effective Date:</strong> [30/07/2025]</p>
-  <p>This privacy policy applies to the mobile application <strong>Advisor Desk</strong>, developed by Suvojeet Sengupta, intended for freelance work-from-home customer care advisors.</p>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="last-updated"><strong>Last Updated:</strong> August 3, 2025</p>
 
-  <h2>1. Information Collection</h2>
-  <p>This app does <strong>not collect any personal data</strong> from users. All data entered in the app (e.g., login hours, call counts, salary tracking) is stored <strong>locally on the user's device</strong> and is not transmitted to any server.</p>
+        <h2>1. Introduction</h2>
+        <p>Welcome to <strong>Advisor Desk</strong>. This application is designed to help customer care advisors track their work performance, manage daily entries, and calculate earnings efficiently. Your privacy is our top priority. This policy outlines our practices concerning data—or rather, our practice of <strong>not collecting your personal data</strong>.</p>
+        <p>This app operates entirely <span class="highlight">offline</span>. All data you enter is stored exclusively on your device.</p>
 
-  <h2>2. Permissions</h2>
-  <p>The app may request permissions such as storage access to generate and save PDF/Excel reports, and device information (for feedback/debugging). These are strictly for providing intended functionalities and are not shared externally.</p>
+        <h2>2. Information We Handle</h2>
+        <h3>Data You Provide</h3>
+        <p>Advisor Desk processes information that you voluntarily enter into the app. This includes:</p>
+        <ul>
+            <li><strong>Daily Work Logs:</strong> Login hours, minutes, seconds, and call counts.</li>
+            <li><strong>Performance Metrics:</strong> CSAT (T2, B2, N counts) and CQ (Call Quality) scores.</li>
+            <li><strong>Goal Settings:</strong> Your personal monthly targets for calls and hours.</li>
+            <li><strong>Salary Parameters:</strong> Customizable settings for salary calculation (e.g., rate per call, bonus amounts).</li>
+        </ul>
+        <h3>Data We DO NOT Collect</h3>
+        <p>We want to be crystal clear. Advisor Desk <strong>DOES NOT</strong> collect, store, or transmit any personally identifiable information (PII). There are:</p>
+        <ul>
+            <li><strong>No user accounts or sign-ups.</strong></li>
+            <li><strong>No names, email addresses, or contact information collected.</strong></li>
+            <li><strong>No server-side storage.</strong> Your data never leaves your device unless you choose to export it.</li>
+        </ul>
 
-  <h2>3. Third-Party Services</h2>
-  <p>This app does not use any third-party services that track users or collect personal data.</p>
+        <h2>3. Data Storage and Security</h2>
+        <p>All the information you enter into Advisor Desk is stored in a local <span class="highlight">SQFlite database</span> directly on your device's internal storage. This means:</p>
+        <ul>
+            <li><strong>You have full control:</strong> Your data is yours alone. We cannot access, view, or manage it.</li>
+            <li><strong>Offline Functionality:</strong> The app works perfectly without an internet connection.</li>
+            <li><strong>Security is in your hands:</strong> The security of your data depends on the security of your device (e.g., screen lock, encryption).</li>
+            <li><strong>Backup & Restore:</strong> You are responsible for backing up your data. The app provides a feature to export the database for backup purposes.</li>
+        </ul>
 
-  <h2>4. Data Security</h2>
-  <p>Your data stays on your device and is never uploaded anywhere. You are responsible for your local storage and device security.</p>
+        <h2>4. App Permissions</h2>
+        <p>To provide its full functionality, Advisor Desk may request the following permissions:</p>
+        <ul>
+            <li><strong>Storage Access:</strong> This permission is required to save generated performance reports (in PDF or Excel format) to your device's storage and to enable the database backup/restore feature.</li>
+            <li><strong>Device Information:</strong> When you voluntarily send feedback to the developer, the app may attach basic, non-personal device information (like OS version and app version) to the email. This helps us debug issues more effectively. This information is only sent if you initiate the feedback process.</li>
+        </ul>
 
-  <h2>5. Children's Privacy</h2>
-  <p>This app is intended for users aged <strong>18 and above</strong>. It is not designed for use by children under 18.</p>
+        <h2>5. How Your Data Is Used</h2>
+        <p>The data you provide is used solely for the app's core features, which operate locally on your device:</p>
+        <ul>
+            <li>To calculate your monthly performance summaries.</li>
+            <li>To automatically compute your estimated salary, including bonuses and deductions.</li>
+            <li>To visualize your progress against your monthly goals.</li>
+            <li>To generate detailed PDF and Excel reports for your personal records.</li>
+        </ul>
 
-  <h2>6. Changes to This Policy</h2>
-  <p>This privacy policy may be updated occasionally. Any changes will be reflected on this page.</p>
+        <h2>6. Third-Party Services</h2>
+        <p>Advisor Desk does not use any third-party analytics, advertising, or tracking services.</p>
 
-  <h2>7. Contact</h2>
-  <p>If you have questions or feedback regarding this privacy policy, contact:<br>
-  <strong>Suvojeet Sengupta</strong><br>
-  suvojitsengupta21@gmail.com</p>
+        <h2>7. Children's Privacy</h2>
+        <p>This app is intended for professionals and is not directed at individuals under the age of 18. We do not knowingly collect any information from children.</p>
+
+        <h2>8. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.</p>
+
+        <h2>9. Contact Us</h2>
+        <p>If you have any questions or suggestions about this Privacy Policy, do not hesitate to contact us.</p>
+        <ul>
+            <li><strong>Developer:</strong> Suvojeet Sengupta</li>
+            <li><strong>Email:</strong> <a href="mailto:suvojitsengupta21@gmail.com">suvojitsengupta21@gmail.com</a></li>
+        </ul>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Advisor Desk. All Rights Reserved.</p>
+    </div>
 </body>
 </html>
